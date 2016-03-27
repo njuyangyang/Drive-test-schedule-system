@@ -43,5 +43,13 @@ $cd ~/sample_app/db
 execute the controller.py:
 $python controller.py
 
+【warnning】
+
+1.You will receive a notification only if your expecting date is available. For test purpose, You should check the available date in DPS website or our datebase before you type in your information.
+
+2. so far, this application is used for Byran DPS only.
+
+
+
 
 

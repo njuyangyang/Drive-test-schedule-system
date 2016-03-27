@@ -23,7 +23,7 @@ now=datetime.now()
 strnow = now.strftime('%Y-%m-%d %H:%M:%S')
 print ("now:",strnow)#can be deleted 1
 # First next run time
-period = timedelta(days=0, hours=0, minutes=1, seconds=30)
+period = timedelta(days=0, hours=0, minutes=0, seconds=30)
 next_time = now + period
 strnext_time = next_time.strftime('%Y-%m-%d %H:%M:%S')
 print ("next run:",strnext_time)#can be deleted 2

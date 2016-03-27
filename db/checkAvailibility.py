@@ -26,6 +26,7 @@ def checkAvailibility(input_dict):
 			if expect_date in input_dict and input_dict[expect_date]==1:
 				automail.automail(email)
 				cur.execute("DELETE FROM USERS WHERE username=?",(name,))
+				print (name, " is delete")
 			else:
 				continue
 
