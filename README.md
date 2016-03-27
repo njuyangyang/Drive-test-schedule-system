@@ -15,30 +15,36 @@ Open the terminal:
 
 Clone the repo: 
 
-'''
-$git clone https://github.com/njuyangyang/sample_app-1.git ~/sample_app
-'''
+
+    $git clone https://github.com/njuyangyang/sample_app-1.git ~/sample_app
+
 Change directory:
-$cd ~/sample_app
+
+    $cd ~/sample_app
 
 ###Set the front-end environment
 
 Installing Rails with a specific version number:
-gem install rails -v 4.2.2
+
+    gem install rails -v 4.2.2
 
 install the gems using:
-$bundle install —-without production
+
+    $bundle install —-without production
 
 migrate the database:
-$ bundle exec rake db:migrate
+
+    $ bundle exec rake db:migrate
 
 run the local web server:
-$rails s
+
+    $rails s
 
 ![terminal](/screenshot/terminal.png)
 
 Now the application should be available on the local server:
-http://localhost:3000
+
+    http://localhost:3000
 
 ![UI1](/screenshot/UI1.png)
 
@@ -55,10 +61,12 @@ And then click create
 ###Start the back-end
 
 Change directory:
-$cd ~/sample_app/db
+
+    $cd ~/sample_app/db
 
 execute the controller.py:
-$python controller.py
+
+    $python controller.py
 
 Top structure of Database
 
