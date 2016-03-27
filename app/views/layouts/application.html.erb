@@ -7,8 +7,27 @@
     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
     <%= csrf_meta_tags %>
     <%= render 'layouts/shim' %>
+    
   </head>
   <body>
+    <script language="javascript" type="text/javascript">
+    
+     
+
+         function showPara()
+         {
+           document.getElementById("first").style.visibility=(document.formax.firstpara.checked) ? "visible" : "hidden";
+           document.getElementById("second").style.visibility=(document.formax.secondpara.checked) ? "visible" : "hidden";
+           document.getElementById("third").style.visibility=(document.formax.thirdpara.checked) ? "visible" : "hidden";
+         }
+      
+    
+      
+    </script>
+    <form name = "formax">
+      <input type ="text" name="Mousex" />Mouse X Position<br/>
+      <input type ="text" name="Mousey" />Mouse Y Position<br/>
+    </form>
     <%= render 'layouts/header' %>
     <div class="container">
       <%= yield %>
