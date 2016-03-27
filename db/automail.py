@@ -8,9 +8,9 @@ def automail(EMAIL):
 
 	TO = EMAIL # must be a list
 
-	SUBJECT = "Hello!"
+	SUBJECT = "Driving test availible"
 
-	TEXT = "This message was sent with Python's smtplib."
+	TEXT = "It is available for your expected appointment"
 
 # Prepare actual message
 
