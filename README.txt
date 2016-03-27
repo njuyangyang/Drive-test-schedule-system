@@ -49,7 +49,8 @@ $python controller.py
 
 2. so far, this application is used for Byran DPS only.
 
-
+【declaration】
+1. To obey the rules, we declare that the Front end UI framework is create several days ago, which we used in another project.
 
 
 
