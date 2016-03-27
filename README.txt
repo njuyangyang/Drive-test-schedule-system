@@ -7,10 +7,10 @@ Python
 Open the terminal:
 
 Clone the repo: 
-$git clone https://github.com/njuyangyang/sample_app-1.git ~/sample_app
+$git clone https://github.com/njuyangyang/sample_app-1.git ~/sample_app-1
 
 Change directory:
-$cd ~/sample_app
+$cd ~/sample_app-1
 ############################################################################
 Set the front-end environment:
 
