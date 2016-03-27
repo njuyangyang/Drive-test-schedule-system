@@ -38,12 +38,17 @@ $rails s
 Now the application should be available on the local server:
 http://localhost:3000
 
+![UI1](/screenshot/UI1.png)
+
 Click the button:Get Started Now!
+
+![UI2](/screenshot/UI2.png)
 
 Enter Your Information:
 Your name, Your email, and the expected date you want to take the driving license test(According to the website of DPS, you can only input the date 90 days from now)
 And then click create
 
+![email](/screenshot/email.jpg)
 
 ###Start the back-end
 
@@ -53,14 +58,32 @@ $cd ~/sample_app/db
 execute the controller.py:
 $python controller.py
 
+Top structure of Database
+
+![DateBase](/screenshot/databaseschema.png)
+
+![DB1](/screenshot/DB1.png)
+
+Availibility Table
+
+![DB2](/screenshot/DB2.png)
+
+
+## Tips
+
 **warnning**
 
 1. You will receive a notification only if your expecting date is available. For test purpose, You should check the available date in DPS website or our datebase before you type in your information.
 2. so far, this application is used for Byran DPS only.
 
+![DPS](/screenshot/DPS.png)
+
 **declaration**
 1. To obey the rules, we declare that the Front end UI framework is create several days ago, which we used in another project.
 
+**software structure**
+Finally, we give you the software structure of our App.
 
+![Software](/screenshot/Software.jpg)
 
 
