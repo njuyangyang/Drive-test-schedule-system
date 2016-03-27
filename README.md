@@ -33,6 +33,8 @@ $ bundle exec rake db:migrate
 run the local web server:
 $rails s
 
+![terminal](/screenshot/terminal.png)
+
 Now the application should be available on the local server:
 http://localhost:3000
 
@@ -51,13 +53,14 @@ $cd ~/sample_app/db
 execute the controller.py:
 $python controller.py
 
-*warnning*
+**warnning**
 
 1. You will receive a notification only if your expecting date is available. For test purpose, You should check the available date in DPS website or our datebase before you type in your information.
 2. so far, this application is used for Byran DPS only.
 
-*declaration*
+**declaration**
 1. To obey the rules, we declare that the Front end UI framework is create several days ago, which we used in another project.
+
 
 
 
