@@ -89,9 +89,11 @@ Availibility Table
 ![DPS](/screenshot/DPS.png)
 
 **declaration**
+
 1. To obey the rules, we declare that the Front end UI framework is create several days ago, which we used in another project.
 
 **software structure**
+
 Finally, we give you the software structure of our App.
 
 ![Software](/screenshot/Software.jpg)
