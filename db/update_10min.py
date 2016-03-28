@@ -14,7 +14,7 @@ return value
 
 #import needed package
 from selenium import webdriver # web action
-
+from pyvirtualdisplay import Display
 from datetime import date
 import BeautifulSoup as bs
 import sqlite3
@@ -124,6 +124,11 @@ if __name__ == "__main__":
     Allowed_Days_Dict = dict()
 
     # get webpage information
+    display = Display(visible=0, size=(800, 600))
+    display.start()
+
+# now Firefox will run in a virtual display. 
+# you will not see the browser.
 
     browser = webdriver.Firefox()
     browser.implicitly_wait(5)
