@@ -14,8 +14,7 @@ from datetime import date
 import BeautifulSoup as bs 
 import sqlite3
 import pickle
-
-# function setup
+from pyvirtualdisplay import Display
   
 def htmltableGetinfomation(websource,data_page):
     """
@@ -101,15 +100,24 @@ if __name__ == "__main__":
     Allowed_Days_Dict = dict()
     
     # get webpage information 
+    display = Display(visible=0, size=(800, 600))
+    display.start()
+
+# now Firefox will run in a virtual display. 
+# you will not see the browser.
+
+# function setup
     
-    browser = webdriver.Firefox()
+    browser = webdriver.Firefox() #webdriver.PhantomJS()#
     browser.implicitly_wait(5)
     browser.get('https://booknow.securedata-trans.com/1qed83ds/')
     browser.find_element_by_xpath("//select[@name='service_id']/option[text()='Driving Test - Regular Car / Pick-up Truck']").click()
     
     source = browser.page_source
+    
     Allowed_Days_Dict = htmltableGetinfomation(source,Allowed_Days_Dict)
     #get another 3 pages information
+    
     for i in range(1,4):
         browser.execute_script("javascript:dosubmit1('no', 'yes', 'log_in')")
         source = browser.page_source
