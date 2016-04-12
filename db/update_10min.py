@@ -123,7 +123,7 @@ if __name__ == "__main__":
     #four_months for result record
     Allowed_Days_Dict = dict()
 
-    # get webpage information
+    #  virtual display of FireFox
     display = Display(visible=0, size=(800, 600))
     display.start()
 
@@ -132,7 +132,7 @@ if __name__ == "__main__":
 
     browser = webdriver.Firefox()
     browser.implicitly_wait(5)
-    browser.get('https://booknow.securedata-trans.com/1qed83ds/')
+    browser.get(URL)
     browser.find_element_by_xpath("//select[@name='service_id']/option[text()='Driving Test - Regular Car / Pick-up Truck']").click()
 
     source = browser.page_source
