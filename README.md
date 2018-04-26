@@ -1,5 +1,7 @@
 # HackUTD : Find Available Driving Test Appointment
 
+This project helps reminder the users when there are personalized available space for their driving test in College Town of TAMU. 
+
 ## Required Environment
 
 1. Firefox Browser
