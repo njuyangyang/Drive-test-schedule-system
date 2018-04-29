@@ -1,15 +1,17 @@
-#HackUTD : Find Available Driving Test Appointment
+# HackUTD : Find Available Driving Test Appointment
 
-##Required Environment
+This project helps reminder the users when there are personalized available space for their driving test in College Town of TAMU. 
+
+## Required Environment
 
 1. Firefox Browser
 2. Ruby on Rails
 3. Ruby(4.2.2)
 4. Python
 
-##How to setup the App
+## How to setup the App
 
-###downlowad the code
+### downlowad the code
 
 Open the terminal:
 
@@ -22,7 +24,7 @@ Change directory:
 
     $cd ~/sample_app
 
-###Set the front-end environment
+### Set the front-end environment
 
 Installing Rails with a specific version number:
 
@@ -58,7 +60,7 @@ And then click create
 
 ![email](/screenshot/email.jpg)
 
-###Start the back-end
+### Start the back-end
 
 Change directory:
 
